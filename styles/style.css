@@ -91,6 +91,64 @@ hr {
   height: 1px;
   background: #000;
   opacity: 0.2;
-
-  /* border: 0.1px solid #aaaaaa; */
+}
+/* Step 3 Style start  */
+.step-3-header {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.products {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  row-gap: 30px;
+  column-gap: 30px;
+  margin: 0 auto;
+}
+.product {
+  background-color: white;
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.product image {
+  width: 300px;
+  height: 256px;
+}
+.product-details > h3 {
+  font-size: 25px;
+  margin: 6;
+}
+.price {
+  font-size: 22px;
+  margin-bottom: 1px;
+}
+.filled {
+  font-size: 10px;
+  color: orange;
+}
+.rating-point {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #787885;
+}
+.short-description {
+  color: #787885;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  padding-right: 75px;
+  padding-top: 50px;
+  color: #e02c6d;
 }

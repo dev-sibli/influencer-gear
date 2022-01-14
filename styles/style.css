@@ -3,7 +3,7 @@
 /* Common Style */
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #cad5e2;
+  /* background-color: #cad5e2; */
   display: flex;
   justify-content: center;
   padding: 50px;
@@ -151,4 +151,28 @@ hr {
   padding-right: 75px;
   padding-top: 50px;
   color: #e02c6d;
+}
+footer {
+  height: 200px;
+  background-color: #0a0826;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+footer h3 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+.social-media > ul > li {
+  list-style: none;
+  margin-right: 15px;
+  padding-left: 16px;
+}
+.social-media > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
